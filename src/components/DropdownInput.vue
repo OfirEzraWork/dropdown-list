@@ -27,4 +27,25 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.dropdown-input {
+  font-family: inherit;
+  height: 3.5rem;
+
+  background-color: var(--color-off);
+  border: none;
+}
+.icon-button {
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-icon {
+  font-size: 1.8rem;
+}
+</style>

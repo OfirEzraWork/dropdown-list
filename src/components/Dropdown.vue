@@ -67,4 +67,16 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.dropdown {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  position: relative;
+  width: 20rem;
+  padding-left: 1.2rem;
+  margin-bottom: 40rem;
+  background-color: var(--color-off);
+  display: grid;
+  grid-template-columns: 14rem 1fr;
+  align-items: center;
+}
+</style>

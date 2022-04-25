@@ -41,4 +41,13 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.dropdown-list {
+  list-style: none;
+  position: absolute;
+  top: 150%;
+  width: 20rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-color: var(--color-off);
+}
+</style>

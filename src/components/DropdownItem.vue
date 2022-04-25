@@ -31,4 +31,22 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.dropdown-list-item {
+  cursor: pointer;
+}
+.dropdown-list-item:nth-child(odd) {
+  background-color: var(--color-main);
+}
+.list-item-button {
+  cursor: inherit;
+  padding: 0.8rem 1.2rem;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  font-size: 1.6rem;
+  background-color: inherit;
+  border: none;
+}
+</style>
